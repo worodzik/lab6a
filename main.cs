@@ -20,7 +20,7 @@ class MainClass {
      Console.WriteLine(i);
      }
      double sum = fahrenheit.Sum();
-     double ave = sum/7;
+     double ave = Math.Round((sum/7),2);
      Console.WriteLine("Avergae weekly temperature is " + ave);
  
 
